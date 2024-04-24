@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>동아리 가입 양식</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form>
+        <laber for="stu_name">이름</laber>
+        <input type="text" id="stu_name" name="stu_name"><br>
+
+        <label for="major">학부/학과</label>
+        <select id="major" name="major">
+            <option value="Computer_Science">소프트웨어학부/컴퓨터과학전공</option>
+            <option value="Data_Science">소프트웨어학부/데이터사이언스전공</option>
+            <option value="Division of Economic">경제학부</option>
+            <option value="Division of Law">법학부</option>
+            <option value="Department of Chemistry">화학과</option>
+        </select>
+        <br>
+
+        <label for="grade">학년</label>
+        <input type="radio" id="frist" name="grade" value="1st">
+        <label for="grade">1학년</label>
+        <input type="radio" id="second" name="grade" value="2nd">
+        <label for="grade">2학년</label>
+        <input type="radio" id="third" name="grade" value="3rd">
+        <label for="grade">3학년</label>
+        <input type="radio" id="fourth" name="grade" value="4th">
+        <label for="grade">4학년</label>
+        <br>
+
+        <label for="stu_num">학번</label>
+        <input tupe="text" id="stu_num" name="stu_num">
+        <br>
+
+        <label for="e-mail">이메일</label>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <label for="phone_num">전화번호</label>
+        <input type="tel" id="phone_num" name="phone_num" 
+                placeholder="010-1234-5678" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
+        <br>
+
+        <label for="join_motivation">가입동기</label>
+        <textarea name="join_motivation" rows="3" cols="40">입력해주세요.</textarea>
+        <br><br>
+
+
+        <input type="submit" id="submit" value="가입하기">
+        <input type="reset" id="reset" value="취소하기">
+        <br>
+
+    </form>
+    
+    <br><br><br><br>
+    <hr>
+    <br><br>
+    
+    <footer>
+        <p><small>2024.03.14 작성, 작성자: 안새은</small></p>
+    </footer>
+</body>
+</html>

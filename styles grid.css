@@ -1,0 +1,145 @@
+#wrapper{
+	width:1600px;
+	display: grid;
+	grid-template-areas: 
+		"box1 box1 box1"
+		"box2 box3 box4"
+		"box2 box3 ."
+		"box5 box5 box5";
+}
+#top_header{
+	grid-area:box1;
+}
+#title{
+	background-color: navy;
+	color:white;
+	padding:6px;
+}
+.menu{
+	background-color:navy;
+	text-align: right;
+}
+header div{
+	background-color: rgb(134, 134, 188);
+}
+nav ul li{
+	font-weight:bold;
+	font-size: 20px;
+
+	display:inline-block;
+
+	width: 200px;
+	text-align:center;
+	
+	padding-top: 20px;
+	padding-bottom: 20px;	
+
+	position:relative;
+}
+#navi a {
+	color:white;
+	text-decoration:none;
+}
+#navi li:hover{
+	background-color: white;
+}
+#navi li:hover a{
+	color: navy;
+}
+
+#navi li:hover .sub_menu{
+	display:block;
+	position:absolute;
+	background-color: navy;
+}
+#navi li:hover .sub_menu{
+	background-color: rgb(134, 134, 188);
+}
+
+.sub_menu{
+	display:none;
+}
+#navi li:hover .sub_menu{
+	display:block;
+}
+#smenu1-1{  top:60px; right: 0px;	}
+#smenu1-2{  top:120px; right: 0px;	}
+#smenu2-1{  top:60px; right: 0px;	}
+#smenu2-2{  top:120px; right: 0px;	}
+
+li{
+	list-style-type:none;
+}
+
+#login{
+	color: white;
+	grid-area:box2;
+	background-color: navy;
+}
+
+#login div{
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 800px;
+	margin-left: 20px;
+}
+#login input, label{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+
+#post{
+	grid-area:box3;
+
+	margin:20px;
+	width: 1000px;
+}
+#post div{
+	margin: 20px;
+	border: 2px solid navy;
+}
+.card{
+	border: 1px solid  navy;
+	border-radius:5%;
+	padding-bottom:50px;
+}
+.card img{
+	float:left;
+	margin-right:20px;
+}
+.card h3{
+	padding-left:40px;
+}
+
+#ad{
+	grid-area: box4;
+	color:white;
+}
+
+#ad div{
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	
+	background-color:rgb(134, 134, 188);
+	border: 2px solid navy;
+	
+
+}
+
+footer{
+	grid-area:box5;
+	text-align: center;
+}
+#foot li a{
+	color:white;
+	text-decoration: none;
+}
+#foot div{
+	background-color:navy;
+}
+#foot ul li{
+	display:inline-block;
+}
